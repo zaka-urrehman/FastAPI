@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 
+# creating a pydantic model 
 class Item(BaseModel):
     name: str
     description: str | None = None
